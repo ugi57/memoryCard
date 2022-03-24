@@ -1,4 +1,4 @@
-var rows = 6;           // 行数
+var rows = 5;           // 行数
 var cols = 6;          // 列数
 var types = 15;         // 方块种类数目
 var squareSet;
@@ -62,8 +62,8 @@ function initCard() {
       squareSet[i] = new Array(cols);
   }
 
-  for (var i = 1; i <= rows; i++) {
-    for (var j = 1; j <= cols; j++) {
+  for (var i = 0; i < rows; i++) {
+    for (var j = 0; j < cols; j++) {
         var temp = createSquare( i, j);//创建一个方块
         updateReflection(temp);
         squareSet[i][j] = temp;
