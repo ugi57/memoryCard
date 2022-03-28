@@ -208,16 +208,16 @@ Deck of Cards
   align-items: center;
   justify-items: center;
   margin-bottom: 6em;
-  height: 50em;
+  height: 40em;
   padding: 2em;
-  width: 50em;
+  width: 40em;
 }
 
 .square {
   border-radius: 0.5em;
   border:#fff 1px solid;
-  height: 8em;
-  width: 8em;
+  height: 6.5em;
+  width: 6.5em;
 }
 
 /*
