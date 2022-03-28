@@ -226,7 +226,7 @@ https://stackoverflow.com/questions/21107439/disable-or-change-firefoxs-element-
 */
 
 img {
-  width:8em;
+  width:6.5em;
   user-select: none;
 }
 
@@ -245,7 +245,7 @@ img {
 
 .flip img {
   visibility: visible;
-  height: 8em;
+  height: 6.5em;
 }
 
 .deck .square.match {
